@@ -10,16 +10,50 @@ body {
 	background-image: url("http://68.media.tumblr.com/4abfddfffde0e29dc31553c81522d672/tumblr_novhnrwKja1ru3nbdo4_r1_100.png");
 }
 header{
+	color:white;
+	margin:10px;
+	text-shadow:
+    -1px -1px 0 pink,
+    1px -1px 0 grey,
+    -1px 1px 0 whitesmoke,
+    1px 1px 0 pink; 
+	padding: 3px;
+	height:190px;
 	text-align: center;
-	background-image: url("https://static.tumblr.com/17c3b533ade68bcb6967f333cac4ad9f/wkmbkie/6xlnwr48t/tumblr_static_tumblr_static__640.jpg");
+	background-image: url("http://68.media.tumblr.com/6c2697d6f4151e5b329929310219869e/tumblr_noxf4sgyN21ru3nbdo7_r1_250.png");
 }
 header h1{
 	font-size:55px;
 }
 header h4{
 	font-size: 30px;
+	font-style: italic;
 }
-img {
+h2{
+	font-size: 30px;
+}
+nav {
+	background-color:#D5BBFC;
+	margin:0;
+	padding:0px 0px 0px 80px;
+	overflow:hidden;
+	text-align: center;
+}
+nav a{
+	display:inline-block;
+	text-decoration: none;
+	color: whitesmoke;
+	padding:10px;
+	text-align: center;
+	height:5px;
+	margin:30px;
+	font-size:20px;
+}
+nav a:hover{
+	background-color: #FFC9E0;
+
+}
+.gallery {
 	margin: 30px 30px;
 	padding: 50px 20px;
 	border:3px solid white;
@@ -27,4 +61,15 @@ img {
 	height:200px;
 	background-color:#FEF8E2;
 	display: inline;
+}
+
+#img1 {
+	height:auto;
+	margin:20px;
+	width:cover;
+}
+#img2 img{
+	height: auto;
+	width: 1200px;
+	margin:20px;
 }
