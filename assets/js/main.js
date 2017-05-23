@@ -18,13 +18,19 @@ img2.src="assets/img/dos.jpg"
 
 var pictures = ["assets/img/a1.jpg","assets/img/a2.jpg", "assets/img/a3.jpg", "assets/img/a4.jpg"];
 
-/*var gal1=document.createElement("IMG");
-gal1.setAttribute("src", pictures[0]);
-	gallery.setAttribute("id","gal1");
-	var div = document.getElementById("galeria");
-	div.appendChild(gallery)*/
+(function salir(){
+	var pandas = Array.from(document.querySelectorAll('.panda span'));
+	
+	pandas.forEach(function(element){
+		element.addEventListener('click', function(){
+			this.parentElement.classList.add('salir');
+		});
+	});
+})()
 
-function img(){
+
+
+/*function img(){
 	var gallery=document.createElement("img");
 	for(var i=0;i<pictures.length;i++){
 	gallery.setAttribute("src", pictures[i]);
@@ -33,4 +39,4 @@ function img(){
 	div.appendChild(gallery)
 	}
 }
-img();
+img();*/

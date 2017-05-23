@@ -53,14 +53,19 @@ nav a:hover{
 	background-color: #FFC9E0;
 
 }
-.gallery {
-	margin: 30px 30px;
-	padding: 50px 20px;
-	border:3px solid white;
-	width: 200px;
-	height:200px;
-	background-color:#FEF8E2;
-	display: inline;
+.panda{
+	display:inline-block;
+	width: 250px; 
+	height: 250px;
+	margin: 20px;
+	border: 8px solid white;
+	filter: grayscale(80%);
+	background-color: #FEF8E2;
+}
+
+.gallery img{
+	width:50px;
+	width:50px;
 }
 
 #img1 {
