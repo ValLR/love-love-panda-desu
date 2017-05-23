@@ -5,4 +5,26 @@ Rosa - #F78E69;
 font-family: 'Raleway', sans-serif;
 */
 
-/* Escribe tu código acá debajo */
+body {
+	font-family: 'Raleway', sans-serif;
+	background-image: url("http://68.media.tumblr.com/4abfddfffde0e29dc31553c81522d672/tumblr_novhnrwKja1ru3nbdo4_r1_100.png");
+}
+header{
+	text-align: center;
+	background-image: url("https://static.tumblr.com/17c3b533ade68bcb6967f333cac4ad9f/wkmbkie/6xlnwr48t/tumblr_static_tumblr_static__640.jpg");
+}
+header h1{
+	font-size:55px;
+}
+header h4{
+	font-size: 30px;
+}
+img {
+	margin: 30px 30px;
+	padding: 50px 20px;
+	border:3px solid white;
+	width: 200px;
+	height:200px;
+	background-color:#FEF8E2;
+	display: inline;
+}
