@@ -12,13 +12,17 @@ img2.onload=function(){
 	div2.appendChild(img2);
 }
 
+var img3= new Image();
+var div3=document.getElementById("img3")
+
+img3.onload=function(){
+	div3.appendChild(img3);
+}
 img1.src="assets/img/uno.jpg"
 img2.src="assets/img/dos.jpg"
+img3.src="assets/img/tres.jpg"
 
-
-var pictures = ["assets/img/a1.jpg","assets/img/a2.jpg", "assets/img/a3.jpg", "assets/img/a4.jpg"];
-
-(function salir(){
+function salir(){
 	var pandas = Array.from(document.querySelectorAll('.panda span'));
 	
 	pandas.forEach(function(element){
@@ -26,7 +30,7 @@ var pictures = ["assets/img/a1.jpg","assets/img/a2.jpg", "assets/img/a3.jpg", "a
 			this.parentElement.classList.add('salir');
 		});
 	});
-})()
+}
 
 
 

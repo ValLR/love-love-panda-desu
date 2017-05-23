@@ -31,7 +31,13 @@ header h4{
 }
 h2{
 	font-size: 30px;
+	margin:0px 0px 0px 30px;
 }
+
+.caja h2{
+	font-size: 30px;
+}
+
 nav {
 	background-color:#D5BBFC;
 	margin:0;
@@ -57,10 +63,17 @@ nav a:hover{
 	display:inline-block;
 	width: 250px; 
 	height: 250px;
-	margin: 20px;
+	margin: 10px;
 	border: 8px solid white;
-	filter: grayscale(80%);
+	padding:10px 10px 10px 10px;
+	filter: grayscale(20%);
 	background-color: #FEF8E2;
+}
+
+.panda img{
+	width:210px;
+	height:210px;
+	margin:15px;
 }
 
 .gallery img{
@@ -77,4 +90,17 @@ nav a:hover{
 	height: auto;
 	width: 1200px;
 	margin:20px;
+}
+
+#img3 img{
+	height:auto;
+	width:1200px;
+	margin:20px;
+}
+
+p{
+	margin:30px 30px;
+	background-color:#E1C0FC;
+	padding:10px;
+	font-size:20px;
 }
